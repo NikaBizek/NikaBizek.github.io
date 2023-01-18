@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #191919;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container nav {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.container nav {
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.container nav ul li {
+    display: inline-block;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+    padding: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.container ul li a:hover {
+    color: #ff2c2c;
+    box-shadow: inset 0px 30px #ff2c2c;
+}
+
+li a.active {
+    box-shadow: inset 0px 30px #ff2c2c;
+}
+
+.kolona {
+    width: 100vw;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.redovi {
+    column-count: 3;
+    column-width: 10vw;
+    column-gap: 5vw;
+    display: flex;
+}
+
+.red2 h3 {
+    text-align: center;
+}
+
+.red3 h3 { 
+    text-align: center;
+}
+
+.red1 img {
+    border-radius: 100%;
+}
+
+.red3 {
+    width: 350px;
+}
+
+.fritule {
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .container nav {width: 100vw; height: 60px; font-size: 15px;}
+    .container {width: 100vw;}
+    .container a {padding:7px;}
+    .container ul li a:hover {color: #ff2c2c; box-shadow: unset;}
+    .kolona {width: 100vw;}
+    .red1 {width: 100vw;}
+    .red3 { width: 100vw;}
+    .redovi {width: 100vw; }
+    .redovi {display: inline-block;}
+    .red1 img { width: 200px; height: 200px; display: block; margin: auto;}
+    .red2 h3 {width: 90vw; display: block; margin: auto; margin-top: 10px;}
+    .red3 h3 {width: 90vw; display: block; margin: auto;}
+    .red3 p {width: 80vw;display: block; margin: auto;}
+    }
+
+@media only screen and (max-width: 844px) and (min-width: 601px) {
+    .container nav {width: 100vw; height: 60px; font-size: 15px;}
+    .container {width: 100vw;}
+    .kolona {width: 100vw;}
+    .red1 {width: 100vw;}
+    .red3 { width: 100vw;}
+    .redovi {width: 70vw; }
+    .redovi {display: inline-block;}
+    .red1 img { width: 200px; height: 200px; display: block; margin: auto;}
+    .red2 h3 {width: 90vw; display: block; margin: auto; margin-top: 10px;}
+    .red3 h3 {width: 90vw; display: block; margin: auto;}
+    .red3 p {width: 80vw;display: block; margin: auto;}
+    }

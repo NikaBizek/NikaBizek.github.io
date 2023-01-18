@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #191919;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container nav {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.container nav {
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.container nav ul li {
+    display: inline-block;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+    padding: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.container ul li a:hover {
+    color: #ff2c2c;
+    box-shadow: inset 0px 30px #ff2c2c;
+}
+
+li a.active {
+    box-shadow: inset 0px 30px #ff2c2c;
+}
+
+.info {
+    top: 60px;
+    background-color: #191919;
+}
+
+.tekst img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+
+.tekst {
+    width: 100%;
+    padding: 100px 0px;
+    color: #fff;
+}
+
+.about-me {
+    width: 550px;
+    font-size: large;
+}
+
+.tekst {
+    width: 1130px;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info .button {
+    background-color: #ff2c2c;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.info .button:hover {
+    transform: scale(1.1);
+}
+
+.info1 {
+    top: 60px;
+    background-color: #cc1406;
+}
+
+.tekst1 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+
+.tekst1 {
+    width: 100vw;
+    padding: 100px 0px;
+    color: #fff;
+}
+
+.about-me1 {
+    width: 550px;
+    font-size: large;
+}
+
+.tekst1 {
+    width: 1130px;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me1 h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info1 .button1 {
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.info1 .button1:hover {
+    transform: scale(1.1);
+}
+
+.info2 {
+    top: 60px;
+    background-color: #191919;
+}
+
+.tekst2 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+
+.tekst2 {
+    width: 100vw;
+    padding: 100px 0px;
+    color: #fff;
+}
+
+.about-me2 {
+    width: 550px;
+    font-size: large;
+}
+
+.tekst2 {
+    width: 1130px;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.about-me2 h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info2 .button2 {
+    background-color: #ff2c2c;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.info2 .button2:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px){
+    .container nav {width: 100vw; height: 60px; font-size: 15px;}
+    .container {width: 100vw;}
+    .container a {padding:7px;}
+    .container ul li a:hover {color: #ff2c2c; box-shadow: unset;}
+    .info .tekst {width: 100vw;}
+    .about-me {width: 100vw;}
+    .about-me1 {width: 100vw;}
+    .about-me2 {width: 100vw;}
+    .tekst {display: inline-block; }
+    .tekst img { width: 200px; height: 200px; display: block; margin: auto;}
+    .about-me h2 {font-size: 40px; text-align: center;}
+    .inf { font-size: 17px; width: 70vw; display: block; margin: auto; text-align: center;}
+    .button { display: block; margin: auto;}
+    .info1 .tekst1 {width: 100vw;}
+    .tekst1 {display: inline-block; }
+    .tekst1 img { width: 200px; height: 200px; display: block; margin: auto;}
+    .about-me1 h2 {font-size: 45px; text-align: center;}
+    .inf1 { font-size: 17px; width: 70vw; display: block; margin: auto; text-align: center;}
+    .button1 { display: block; margin: auto;}
+    .info2 .tekst2 {width: 100vw;}
+    .tekst2 {display: inline-block; }
+    .tekst2 img { width: 200px; height: 200px; display: block; margin: auto;}
+    .about-me2 h2 {font-size: 45px; text-align: center;}
+    .inf2 { font-size: 17px; width: 70vw; display: block; margin: auto; text-align: center;}
+    .button2 { display: block; margin: auto;}
+}
+
+@media only screen and (max-width: 844px) and (min-width: 601px) {
+    .tekst {width: 100vw;}
+    .tekst1{width: 100vw;}
+    .tekst2 {width: 100vw;}
+    .tekst img { width: 300px; height: 300px;}
+    .tekst1 img { width: 300px; height: 300px;}
+    .tekst2 img { width: 300px; height: 300px;}
+    .about-me h2 {font-size: 45px;}
+    .about-me1 h2 {font-size: 40px;}
+    .about-me2 h2 {font-size: 45px;}
+    .inf { font-size: 17px; width: 60vw; }
+    .inf1 { font-size: 17px; width: 60vw; }
+    .inf2 { font-size: 17px; width: 60vw; }
+    .about-me {margin-left: 25px;}
+    .about-me1 {margin-left: 25px;}
+    .about-me2 {margin-left: 25px;}
+}
